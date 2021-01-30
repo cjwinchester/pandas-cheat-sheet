@@ -6,7 +6,9 @@ A [Jupyter notebook](Pandas%20cheat%20sheet.ipynb) with some common data manipul
 
 Clone or [download/unzip](https://github.com/cjwinchester/pandas-cheat-sheet/archive/master.zip) this repo and install the dependencies (`jupyter` and `pandas`), preferably in a virtual environment of some sort.
 
-I'm using [`pipenv`](https://docs.pipenv.org/), so If you have pipenv installed:
+If you're using the built-in `venv` module to manage dependencies:
 - `cd path/to/where/this/repo/lives/on/your/computer`
-- `pipenv install`
-- `pipenv run jupyter notebook`
+- `python3 -m venv env` (Mac) or `python -m venv env` (PC)
+- `source env/bin/activate` (Mac) or `.\env\Scripts\activate` (PC)
+- `pip install -r requirements.txt`
+- `jupyter notebook`
